@@ -1,0 +1,106 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>Tutorial Videos</ion-title>
+  </ion-navbar>
+</ion-header>
+<div [ngSwitch]="currentPage">
+
+  <!-- Page 1 -->
+  <div class="vPage" *ngSwitchCase="'page1'">
+    <ion-list>
+      <button ion-item (click)="gotoPage2()">Dividing decimals by decimal values math video tutorial</button>
+      <button ion-item (click)="gotoPage3()">Divisibility Rules if dividing by 2,  5 and 10. Teach kids easy division tricks</button>
+      <button ion-item (click)="gotoPage4()">How to convert a mixed fraction to improper fraction video</button>
+      <button ion-item (click)="gotoPage5()">How to convert fractions to decimals 5th, 6th, 7th grade</button>
+      <button ion-item (click)="gotoPage6()">Math Video on  Identifying Place Value in Numbers</button>
+      <button ion-item (click)="gotoPage7()">Ordering decimals from least to greatest math tutorial</button>
+    </ion-list>
+  </div>
+
+  <!--../assets/videos/vid-01.mp4-->
+
+  
+  <!-- Page 2 -->
+  <div class="vPage" text-center *ngSwitchCase="'page2'" overflow-scroll="true">
+    <h2>Dividing decimals by decimal values math video tutorial</h2>
+    <hr />
+
+    <iframe class="videoLess" width="360" height="320" [src]="sanitize1(vid1)" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
+    <!--<video #video controls preload="auto" autoplay loop class="video" playsinline>
+      <source src="assets/videos/vid-01.mp4" type='video/mp4'>
+    </video>-->
+
+    <button margin-top ion-button outline (click)="goBack()">Back</button>
+  </div>
+
+
+  <!-- Page 3 -->
+  <div class="vPage" text-center *ngSwitchCase="'page3'" overflow-scroll="true">
+    <h2>Divisibility Rules if dividing by 2,  5 and 10. Teach kids easy division tricks</h2>
+    <hr />
+
+    <iframe class="videoLess" width="360" height="320" [src]="sanitize2(vid2)" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+    <!--<video #video controls preload="auto" autoplay loop class="video" playsinline>
+      <source src="assets/videos/vid-02.mp4" type='video/mp4'>
+    </video>-->
+
+    <button margin-top ion-button outline p (click)="goBack()">Back</button>
+  </div>
+
+
+  <!-- Page 4 -->
+  <div class="vPage" text-center *ngSwitchCase="'page4'" overflow-scroll="true">
+    <h2>How to convert a mixed fraction to improper fraction video</h2>
+    <hr />
+
+    <iframe class="videoLess" width="360" height="320" [src]="sanitize3(vid3)" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+    <!--<video #video controls preload="auto" autoplay loop class="video" playsinline>
+      <source src="assets/videos/vid-03.mp4" type='video/mp4'>
+    </video>-->
+
+    <button margin-top ion-button outline (click)="goBack()">Back</button>
+  </div>
+
+
+  <!-- Page 5 -->
+  <div class="vPage" text-center *ngSwitchCase="'page5'" overflow-scroll="true">
+    <h2>How to convert fractions to decimals 5th, 6th, 7th grade</h2>
+    <hr />
+
+    <iframe class="videoLess" width="360" height="320" [src]="sanitize4(vid4)" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+    <!--<video #video controls preload="auto" autoplay loop class="video" playsinline>
+      <source src="assets/videos/vid-04.mp4" type='video/mp4'>
+    </video>-->
+
+    <button margin-top ion-button outline (click)="goBack()">Back</button>
+  </div>
+
+  <!-- Page 6 -->
+  <div class="vPage" text-center *ngSwitchCase="'page6'" overflow-scroll="true">
+    <h2>Math Video on  Identifying Place Value in Numbers</h2>
+    <hr />
+
+
+    <iframe class="videoless" width="360" height="320" [src]="sanitize5(vid5)" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+    <!--<video #video controls preload="auto" autoplay loop class="video" playsinline>
+      <source src="assets/videos/vid-05.mp4" type='video/mp4'>
+    </video>-->
+
+    <button margin-top ion-button outline (click)="goBack()">Back</button>
+  </div>
+
+  <!-- Page 7 -->
+  <div class="vPage" text-center *ngSwitchCase="'page7'" overflow-scroll="true">
+    <h2>Ordering decimals from least to greatest math tutorial</h2>
+    <hr />
+
+    <iframe class="videoLess" width="360" height="320" [src]="sanitize6(vid6)" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+    <!--<video #video controls preload="auto" autoplay loop class="video" playsinline>
+      <source src="assets/videos/vid-06.mp4" type='video/mp4'>
+    </video>-->
+
+    <button margin-top ion-button outline (click)="goBack()">Back</button>
+  </div>
+
+</div>

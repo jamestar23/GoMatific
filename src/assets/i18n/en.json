@@ -1,0 +1,81 @@
+{
+  "BACK_BUTTON_TEXT": "Back",
+
+  "NAME": "Name",
+  "SECTION": "Section",
+  "TEACHER": "Teacher",
+  "USERNAME": "Username",
+  "PASSWORD": "Password",
+  "LOGIN": "Sign in",
+  "SIGNUP": "Sign up",
+
+  "TAB1_TITLE": "Home",
+  "TAB2_TITLE": "Dictionary",
+  "TAB3_TITLE": "Information",
+
+  "MAP_TITLE": "Map",
+
+  "TUTORIAL_SKIP_BUTTON": "Skip",
+  "TUTORIAL_CONTINUE_BUTTON": "Continue",
+
+  "TUTORIAL_SLIDE1_TITLE": "Welcome to GoMatific",
+  "TUTORIAL_SLIDE1_DESCRIPTION": "The <b>eLearning Mobile App</b> Exclusively for 5th Grader of Cubal Elementary School",
+
+  "TUTORIAL_SLIDE2_TITLE": "How to use this App",
+  "TUTORIAL_SLIDE2_DESCRIPTION": "Simple and Easy, Just Login and Bam!",
+
+  "TUTORIAL_SLIDE3_TITLE": "Getting Started",
+  "TUTORIAL_SLIDE3_DESCRIPTION": "Need help? Contact the Developer Hayme",
+
+  "TUTORIAL_SLIDE4_TITLE": "Ready to Learn?",
+
+  "WELCOME_HEADER": "GoMatific",
+  "WELCOME_INTRO": "eLearning Mobile App",
+
+  "SETTINGS_TITLE": "Settings",
+  "SETTINGS_OPTION1": "Sounds",
+  "SETTINGS_OPTION2": "Name",
+  "SETTINGS_OPTION3": "Section",
+  "SETTINGS_OPTION4": "Teacher",
+  "SETTINGS_OPTION5": "Current Chapter",
+  "SETTINGS_OPTION6": "Someting",
+
+  "SETTINGS_PROFILE_BUTTON": "View Student Profile",
+
+  "SETTINGS_PAGE_PROFILE": "My GoMatific",
+
+  "WELCOME_TITLE": "Welcome",
+
+  "LOGIN_TITLE": "Sign in",
+  "LOGIN_ERROR": "Unable to sign in. Please check your account information and try again.",
+  "LOGIN_BUTTON": "Sign in",
+  "SIGNUP_TITLE": "Sign up",
+  "SIGNUP_ERROR": "Unable to create account. Please check your account information and try again.",
+  "SIGNUP_BUTTON": "Sign up",
+
+  "LIST_MASTER_TITLE": "Lessons",
+
+  "ITEM_CREATE_TITLE": "New Item",
+  "ITEM_CREATE_CHOOSE_IMAGE": "Add Image",
+
+  "ITEM_NAME_PLACEHOLDER": "Name",
+  "ITEM_ABOUT_PLACEHOLDER": "About",
+
+  "DONE_BUTTON": "Done",
+  "CANCEL_BUTTON": "Cancel",
+  "DELETE_BUTTON": "Delete",
+
+  "CARDS_TITLE": "Cards",
+
+  "SEARCH_TITLE": "Search",
+  "SEARCH_PLACEHOLDER": "Search Lessons Title",
+
+  "START": "Start",
+
+  "CHAPTERS_TITLE": "Chapters",
+  "CHAPTER1": "Chapter 1",
+  "CHAPTER2": "Chapter 2",
+  "CHAPTER3": "Chapter 3",
+  "CHAPTER4": "Chapter 4",
+  "CHAPTER5": "Chapter 5"
+}

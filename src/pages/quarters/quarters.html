@@ -1,0 +1,79 @@
+<ion-header padding>
+  <ion-title>
+    GoMatific
+    <ion-icon (click)="gotoSettings()" name="cog"></ion-icon>
+  </ion-title>
+</ion-header>
+
+<ion-content margin-top text-center>
+  <ion-content class="card-background-page">
+    <div *ngIf="progress">
+      <h5><b>Progress: </b>Quarter {{qProg}} Lesson {{lProg}}</h5>
+    </div>
+    
+    <button ion-button [disabled]="!q1Prog" padding-vertical (click)="filterQ1(item)" class="q-btn">
+      <h3>Chapter 1</h3>
+    </button>
+
+    <button ion-button [disabled]="!q2Prog" padding-vertical (click)="filterQ2(item)" class="q-btn">
+      <h3>Chapter 2</h3>
+    </button>
+
+    <button ion-button [disabled]="!q3Prog" padding-vertical (click)="filterQ3(item)" class="q-btn">
+      <h3>Chapter 3</h3>
+    </button>
+
+    <button ion-button [disabled]="!q4Prog" padding-vertical (click)="filterQ4(item)" class="q-btn">
+      <h3>Chapter 4</h3>
+    </button>
+
+    <button ion-button [disabled]="!q5Prog" padding-vertical (click)="filterQ5(item)" class="q-btn">
+      <h3>Chapter 5</h3>
+    </button>
+
+
+    <br />
+    <button ion-button outline [disabled]="false" padding-vertical (click)="gotoSearch()" class="s-btn">
+      <h4>Find Lesson</h4>
+      <ion-icon name="search"></ion-icon>
+
+    </button>
+    <!--<div text-center class="exit-btn">
+    <button ion-button (click)="popThis()">
+      Exit
+      <ion-icon ios="ios-exit" md="md-exit"></ion-icon>
+
+    </button>
+  </div>-->
+    <!--<button style="margin-top: 150px; background-color:transparent"  ion-button outline (click)="playVideo()">Watch video </button>-->
+
+    <ion-grid>
+      <ion-row>
+        <ion-col col-2>
+        </ion-col>
+
+        <ion-col col-4>
+          <button ion-button icon-end (click)="gotoVideos()" class="vid">
+            <ion-icon name="play"></ion-icon>
+          </button>
+          <ion-label class="icon-label">Watch</ion-label>
+        </ion-col>
+
+        <ion-col col-4>
+          <button ion-button icon-end (click)="gotoGame()" class="game">
+            <ion-icon name="game-controller-a"></ion-icon>
+          </button>
+          <ion-label class="icon-label">Play</ion-label>
+        </ion-col>
+
+        <ion-col col-2>
+        </ion-col>
+
+      </ion-row>
+    </ion-grid>
+
+    <!--<audio autoplay loop *ngIf="bgs" class="audioApp">
+    <source src="assets/audio/cricket.mp3" type="audio/mpeg">
+  </audio>-->
+  </ion-content>
+</ion-content>

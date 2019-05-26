@@ -1,0 +1,237 @@
+{
+  "questions": [
+
+    {
+      "flashCardFront": "What is the place value of 1 in the number 293 146? ",
+      "flashCardBack": "<h4>The correct answer is </h4> </br> Hundreds",
+      "flashCardFlipped": false,
+      "questionText": "",
+      "answers": [
+        {
+          "answer": "Thousands",
+          "correct": false,
+          "selected": false
+        },
+        {
+          "answer": "Hundreds",
+          "correct": true,
+          "selected": false
+        },
+        {
+          "answer": "Tens",
+          "correct": false,
+          "selected": false
+        }
+      ]
+    },
+    {
+      "flashCardFront": "What is the place value of 7 in the number 1 360 270",
+      "flashCardBack": "<h4>The correct answer is </h4> </br>Tens",
+      "flashCardFlipped": false,
+      "questionText": "",
+      "answers": [
+        {
+          "answer": "Thousands",
+          "correct": false,
+          "selected": false
+        },
+        {
+          "answer": "Hundreds",
+          "correct": false,
+          "selected": false
+        },
+        {
+          "answer": "Tens",
+          "correct": true,
+          "selected": false
+        }
+      ]
+    },
+    {
+      "flashCardFront": "What is the value of 9 in the numeber 983 820",
+      "flashCardBack": "<h4>The correct answer is </h4> </br> 900,000",
+      "flashCardFlipped": false,
+      "questionText": "",
+      "answers": [
+        {
+          "answer": "900,000",
+          "correct": true,
+          "selected": false
+        },
+        {
+          "answer": "9,000",
+          "correct": false,
+          "selected": false
+        },
+        {
+          "answer": "90,000",
+          "correct": false,
+          "selected": false
+        }
+      ]
+    },
+    {
+      "flashCardFront": "What is the value of 7 in the number 217 434 ",
+      "flashCardBack": "<h4>The correct answer is </h4> </br> 7,000 ",
+      "flashCardFlipped": false,
+      "questionText": "",
+      "answers": [
+        {
+          "answer": " 70,000",
+          "correct": false,
+          "selected": false
+        },
+        {
+          "answer": " 700,000",
+          "correct": false,
+          "selected": false
+        },
+        {
+          "answer": "7,000",
+          "correct": true,
+          "selected": false
+        }
+      ]
+    },
+    {
+      "flashCardFront": "Give the place value of the underlined digit: 4.376<u>3</u>",
+      "flashCardBack": "<h4>The correct answer is </h4> </br> Ten thousands place",
+      "flashCardFlipped": false,
+      "questionText": "",
+      "answers": [
+        {
+          "answer": "Thousandths place",
+          "correct": false,
+          "selected": false
+        },
+        {
+          "answer": "Ten thousands place",
+          "correct": true,
+          "selected": false
+        },
+        {
+          "answer": "Hundred thousands place ",
+          "correct": false,
+          "selected": false
+        }
+      ]
+    },
+    {
+      "flashCardFront": "How many tens in 560",
+      "flashCardBack": "<h4>The correct answer is </h4> </br> 56",
+      "flashCardFlipped": false,
+      "questionText": "",
+      "answers": [
+        {
+          "answer": "560",
+          "correct": false,
+          "selected": false
+        },
+        {
+          "answer": "56",
+          "correct": true,
+          "selected": false
+        },
+        {
+          "answer": "5.6",
+          "correct": false,
+          "selected": false
+        }
+      ]
+    },
+    {
+      "flashCardFront": "Round the number 7 to the place value 475 325",
+      "flashCardBack": "<h4>The correct answer is </h4> </br> 480,000",
+      "flashCardFlipped": false,
+      "questionText": "",
+      "answers": [
+        {
+          "answer": "470,000",
+          "correct": false,
+          "selected": false
+        },
+        {
+          "answer": "480,000",
+          "correct": true,
+          "selected": false
+        },
+        {
+          "answer": "460,000",
+          "correct": false,
+          "selected": false
+        }
+      ]
+    },
+    {
+      "flashCardFront": "Quotient means to <u>     </u>",
+      "flashCardBack": "<h4>The correct answer is </h4> </br> Divide",
+      "flashCardFlipped": false,
+      "questionText": "",
+      "answers": [
+        {
+          "answer": "Subtract",
+          "correct": false,
+          "selected": false
+        },
+        {
+          "answer": "Divide",
+          "correct": true,
+          "selected": false
+        },
+        {
+          "answer": "Multiply",
+          "correct": false,
+          "selected": false
+        }
+      ]
+    },
+    {
+      "flashCardFront": "What is the place value 6 in the number 1,026,458?",
+      "flashCardBack": "<h4>The correct answer is </h4> </br> Thousands",
+      "flashCardFlipped": false,
+      "questionText": "",
+      "answers": [
+        {
+          "answer": "Thousands",
+          "correct": true,
+          "selected": false
+        },
+        {
+          "answer": "Hundreds",
+          "correct": false,
+          "selected": false
+        },
+        {
+          "answer": "Tens",
+          "correct": false,
+          "selected": false
+        }
+      ]
+    },
+    {
+      "flashCardFront": "What is the place value of 5 in the number 985",
+      "flashCardBack": "<h4>The correct answer is </h4> </br> Hypotenuse",
+      "flashCardFlipped": false,
+      "questionText": "",
+      "answers": [
+        {
+          "answer": "Ones",
+          "correct": true,
+          "selected": false
+        },
+        {
+          "answer": "Hundreds",
+          "correct": false,
+          "selected": false
+        },
+        {
+          "answer": "Tens",
+          "correct": false,
+          "selected": false
+        }
+      ]
+    }
+
+  ]
+
+}

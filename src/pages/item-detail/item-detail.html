@@ -1,0 +1,23 @@
+<ion-header>
+
+  <ion-navbar>
+    <ion-title>Chapter {{ item.quarter }} {{item.about}} </ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content>
+  <!--<div class="item-detail" padding>
+    <h2>{{item.name}}</h2>
+  </div>-->
+  <!--<div class="item-lesson" text-center #profilePic [style.background-image]="'url(' + item.lesson + ')'">
+  </div>-->
+
+  <div class="item-lesson" text-center #profilePic>
+    <img src="{{item.lesson}}" alt="lesson" class="less-img" />
+  </div>
+
+  <!--<button ion-button outline (click)="playVideo()">Watch video tutorial</button>-->
+
+</ion-content>

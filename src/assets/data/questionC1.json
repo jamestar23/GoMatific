@@ -1,0 +1,122 @@
+{
+  "questions": [
+
+    {
+      "flashCardFront": "In the number 764915 what is the place value of 4? ",
+      "flashCardBack": "<h4>Answer: </h4> </br> Thousand",
+      "flashCardFlipped": false,
+      "questionText": "",
+      "answers": [
+        {
+          "answer": "Hundred",
+          "correct": false,
+          "selected": false
+        },
+        {
+          "answer": "Thousand",
+          "correct": true,
+          "selected": false
+        },
+        {
+          "answer": "Ten Thousand",
+          "correct": false,
+          "selected": false
+        }
+      ]
+    },
+    {
+      "flashCardFront": "The digit 8 is followed by 7 zeros. What is the number?",
+      "flashCardBack": "<h4>Answer: </h4> </br> 80000000",
+      "flashCardFlipped": false,
+      "questionText": "",
+      "answers": [
+        {
+          "answer": "800000",
+          "correct": false,
+          "selected": false
+        },
+        {
+          "answer": "80000000",
+          "correct": true,
+          "selected": false
+        },
+        {
+          "answer": "8000000",
+          "correct": false,
+          "selected": false
+        }
+      ]
+    },
+    {
+      "flashCardFront": "Round the number 7 to the place value 875022. ",
+      "flashCardBack": "<h4>Answer: </h4> </br> 880000",
+      "flashCardFlipped": false,
+      "questionText": "",
+      "answers": [
+        {
+          "answer": "870000",
+          "correct": false,
+          "selected": false
+        },
+        {
+          "answer": "880000",
+          "correct": true,
+          "selected": false
+        },
+        {
+          "answer": "900000",
+          "correct": false,
+          "selected": false
+        }
+      ]
+    },
+    {
+      "flashCardFront": "Solve the problem using PMDAS. (4 +2 x 5)/7+3",
+      "flashCardBack": "<h4>Answer: </h4> </br> 5",
+      "flashCardFlipped": false,
+      "questionText": "",
+      "answers": [
+        {
+          "answer": "3",
+          "correct": false,
+          "selected": false
+        },
+        {
+          "answer": "5",
+          "correct": true,
+          "selected": false
+        },
+        {
+          "answer": "4",
+          "correct": false,
+          "selected": false
+        }
+      ]
+    },
+    {
+      "flashCardFront": "Solve for the value of N 5 x 2 / 10 +  8 - 3 = N",
+      "flashCardBack": "<h4>Answer: </h4> </br> 6",
+      "flashCardFlipped": false,
+      "questionText": "",
+      "answers": [
+        {
+          "answer": "5",
+          "correct": false,
+          "selected": false
+        },
+        {
+          "answer": "6",
+          "correct": true,
+          "selected": false
+        },
+        {
+          "answer": "14",
+          "correct": false,
+          "selected": false
+        }
+      ]
+    }
+
+  ]
+
+}

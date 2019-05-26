@@ -1,0 +1,81 @@
+TS
+
+qItems: any[];
+
+this.qItems = [
+
+      {
+
+        question: 'This is a sample Question 1',
+
+        answer: 'a',
+
+        choice: {
+
+          a: 'A. Choice 1 /',
+
+          b: 'B. Choice 2',
+
+          c: 'C. Choice 3',
+
+          d: 'D. Choice 4'
+
+        }
+
+      },
+
+      {
+
+        question: 'This is a sample Question 2',
+
+        answer: 'b',
+
+        choice: {
+
+          a: 'a. choice 1',
+
+          b: 'b. choice 2 /',
+
+          c: 'c. choice 3',
+
+          d: 'd. choice 4'
+
+        }
+
+      }
+
+    ];
+
+
+
+HTML
+
+<ion-list>
+    <ion-item class="unanswered" *ngFor="let item of qItems">
+      <h2>{{item.question}}</h2>
+      <ion-row>
+        <div col-6>
+          <button color="light" ion-button full>
+            <p>{{item.choice.a}}</p>
+          </button>
+        </div>
+        <div col-6>
+          <button color="light" ion-button full>
+            <p>{{item.choice.c}}</p>
+          </button>
+        </div>
+        </ion-row>
+      <ion-row>
+        <div col-6>
+          <button color="light" ion-button full>
+            <p>{{item.choice.b}}</p>
+          </button>
+        </div>
+        <div col-6>
+          <button color="light" ion-button full>
+            <p>{{item.choice.d}}</p>
+          </button>
+        </div>
+        </ion-row>
+    </ion-item>
+  </ion-list>

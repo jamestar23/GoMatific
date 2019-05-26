@@ -1,0 +1,122 @@
+{
+  "questions": [
+
+    {
+      "flashCardFront": "What is the least common denominator or LCD of 1/2  x  2/5 ",
+      "flashCardBack": "<h4>Answer: </h4> </br> 10",
+      "flashCardFlipped": false,
+      "questionText": "",
+      "answers": [
+        {
+          "answer": "5",
+          "correct": false,
+          "selected": false
+        },
+        {
+          "answer": "10",
+          "correct": true,
+          "selected": false
+        },
+        {
+          "answer": "2",
+          "correct": false,
+          "selected": false
+        }
+      ]
+    },
+    {
+      "flashCardFront": "What is the difference of 6/7 and 3/7",
+      "flashCardBack": "<h4>Answer: </h4> </br> 3/7",
+      "flashCardFlipped": false,
+      "questionText": "",
+      "answers": [
+        {
+          "answer": "3",
+          "correct": false,
+          "selected": false
+        },
+        {
+          "answer": "3/7",
+          "correct": true,
+          "selected": false
+        },
+        {
+          "answer": "6/7",
+          "correct": false,
+          "selected": false
+        }
+      ]
+    },
+    {
+      "flashCardFront": "What is the difference of 4/8 and 2/8. Reduce the answer to lowest terms whenever possible. ",
+      "flashCardBack": "<h4>Answer: </h4> </br>1/4",
+      "flashCardFlipped": false,
+      "questionText": "",
+      "answers": [
+        {
+          "answer": "3/4",
+          "correct": false,
+          "selected": false
+        },
+        {
+          "answer": "1/4",
+          "correct": true,
+          "selected": false
+        },
+        {
+          "answer": "1/2",
+          "correct": false,
+          "selected": false
+        }
+      ]
+    },
+    {
+      "flashCardFront": "Multiply 4/9 and 3/8",
+      "flashCardBack": "<h4>Answer: </h4> </br>1/6 ",
+      "flashCardFlipped": false,
+      "questionText": "",
+      "answers": [
+        {
+          "answer": "1/72",
+          "correct": false,
+          "selected": false
+        },
+        {
+          "answer": "1/6",
+          "correct": true,
+          "selected": false
+        },
+        {
+          "answer": "27/32",
+          "correct": false,
+          "selected": false
+        }
+      ]
+    },
+    {
+      "flashCardFront": "Divide 3/6 and 1/3. ",
+      "flashCardBack": "<h4>Answer: </h4> </br> 1",
+      "flashCardFlipped": false,
+      "questionText": "",
+      "answers": [
+        {
+          "answer": "0",
+          "correct": false,
+          "selected": false
+        },
+        {
+          "answer": "1",
+          "correct": true,
+          "selected": false
+        },
+        {
+          "answer": "1/2",
+          "correct": false,
+          "selected": false
+        }
+      ]
+    }
+
+  ]
+
+}

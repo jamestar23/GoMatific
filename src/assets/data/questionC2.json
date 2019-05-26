@@ -1,0 +1,122 @@
+{
+  "questions": [
+
+    {
+      "flashCardFront": "How many whole numbers between 1 and 20 is divisible by 2? by 4? by 6? ",
+      "flashCardBack": "<h4>Answer: </h4> </br> 1",
+      "flashCardFlipped": false,
+      "questionText": "",
+      "answers": [
+        {
+          "answer": "2",
+          "correct": false,
+          "selected": false
+        },
+        {
+          "answer": "1",
+          "correct": true,
+          "selected": false
+        },
+        {
+          "answer": "0",
+          "correct": false,
+          "selected": false
+        }
+      ]
+    },
+    {
+      "flashCardFront": "Which of the following numbers in the set is divisible by 6? {36, 23,99}.",
+      "flashCardBack": "<h4>Answer: </h4> </br> 36",
+      "flashCardFlipped": false,
+      "questionText": "",
+      "answers": [
+        {
+          "answer": "23",
+          "correct": false,
+          "selected": false
+        },
+        {
+          "answer": "36",
+          "correct": true,
+          "selected": false
+        },
+        {
+          "answer": "99",
+          "correct": false,
+          "selected": false
+        }
+      ]
+    },
+    {
+      "flashCardFront": "What is the greatest common factor or GCF of the following set of numbers {2,6,12}. ",
+      "flashCardBack": "<h4>Answer: </h4> </br> 12",
+      "flashCardFlipped": false,
+      "questionText": "",
+      "answers": [
+        {
+          "answer": "2",
+          "correct": false,
+          "selected": false
+        },
+        {
+          "answer": "12",
+          "correct": true,
+          "selected": false
+        },
+        {
+          "answer": "6",
+          "correct": false,
+          "selected": false
+        }
+      ]
+    },
+    {
+      "flashCardFront": "What is the greatest common factor or GCF of the following set of numbers { 3,6,9}. ",
+      "flashCardBack": "<h4>Answer: </h4> </br> 9",
+      "flashCardFlipped": false,
+      "questionText": "",
+      "answers": [
+        {
+          "answer": "3",
+          "correct": false,
+          "selected": false
+        },
+        {
+          "answer": "9",
+          "correct": true,
+          "selected": false
+        },
+        {
+          "answer": "6",
+          "correct": false,
+          "selected": false
+        }
+      ]
+    },
+    {
+      "flashCardFront": "What is the Least Common Factor or LCM of  10  15 and 8",
+      "flashCardBack": "<h4>Answer: </h4> </br> 120",
+      "flashCardFlipped": false,
+      "questionText": "",
+      "answers": [
+        {
+          "answer": "80",
+          "correct": false,
+          "selected": false
+        },
+        {
+          "answer": "120",
+          "correct": true,
+          "selected": false
+        },
+        {
+          "answer": "150",
+          "correct": false,
+          "selected": false
+        }
+      ]
+    }
+
+  ]
+
+}

@@ -1,0 +1,14 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>Dictionary</ion-title>
+  </ion-navbar>
+</ion-header>
+<ion-content>
+  <ion-searchbar accesskey="word" [(ngModel)]="wordInput" (ionInput)="getItems($event)" placeholder="Search any Math word.."></ion-searchbar>
+  <ion-list>
+    <button ion-item (click)="openItem(item)" *ngFor="let item of currentItems">
+      <h2>{{item.word}}</h2>
+    </button>
+    <ion-item *ngIf="hideMe">No Search Results Found!</ion-item>
+  </ion-list>
+</ion-content>

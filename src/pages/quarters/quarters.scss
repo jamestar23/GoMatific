@@ -1,0 +1,104 @@
+page-quarters {
+  .scroll-content {
+    margin-bottom: 28px !important;
+  }
+
+  ion-icon[name="cog"] {
+    float: right;
+  }
+
+  .button:disabled {
+    background-color: #7e7e7e;
+    color: #333;
+  }
+
+  h5 {
+    margin: -2px 0 5px;
+  }
+  .button {
+    background-color: rgba(105, 184, 225,.7);
+    width: 100%;
+    margin: 0px auto 10px;
+    font-size: 15px;
+    /*border: 1px solid #fff !important;*/
+  }
+
+  .button h3 {
+    margin: 0;
+    font-family: 'Gloria Hallelujah', cursive;
+  }
+
+  .exit-btn {
+    position: fixed;
+    bottom: 50px;
+    width: 100%;
+  }
+
+  .q-btn {
+    background: transparent no-repeat url(../assets/img/button-prime.png) center !important;
+    height: 55px;
+    background-size: contain !important;
+    box-shadow: none;
+  }
+
+  .q-btn h4 {
+    font-family: 'Poor Story', cursive;
+  }
+
+  ion-icon.icon[aria-label="search"] {
+    font-size: 30px;
+  }
+
+  .s-btn {
+    padding: 0 !important;
+    border: 1px solid #111;
+    color: #fff;
+    height: 50px;
+    background-color: rgb(43, 86, 155);
+    /*background-color: rgba(50, 82, 154, 0.8);*/
+    width: 50%;
+    border-radius: 20px;
+    animation: hvr-push 3s infinite;
+  }
+
+  .s-btn h4 {
+    font-size: 15px;
+    margin: 0 10px 0 0;
+  }
+
+  button.vid {
+    animation: hvr-buzz-out 5s infinite;
+  }
+
+  button.game {
+    /*animation: bounce 3s infinite;*/
+    animation: hvr-buzz-out 4s infinite;
+  }
+
+  button.vid, button.game {
+    background: transparent no-repeat url(../assets/img/button-sec.png) center !important;
+    background-size: cover !important;
+    box-shadow: none;
+    width: 60px;
+    height: 60px;
+    font-size: 24px;
+  }
+
+  button.vid span.button-inner, button.game span.button-inner {
+    position: absolute;
+    top: 0;
+    left: -5px;
+  }
+
+  ion-label.icon-label {
+    display: block;
+    position: absolute;
+    width: 100%;
+    margin: 0;
+    color: #fff;
+    top: 70px;
+    font-size: 20px;
+    left: 0px;
+    height: 26px;
+  }
+}

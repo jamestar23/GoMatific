@@ -1,0 +1,122 @@
+{
+  "questions": [
+
+    {
+      "flashCardFront": "Using a micrometer , Jean found out that a leaf is 0.243cm thick. What is the value of 2 in the number? ",
+      "flashCardBack": "<h4>Answer: </h4> </br> 0.200",
+      "flashCardFlipped": false,
+      "questionText": "",
+      "answers": [
+        {
+          "answer": "0.02",
+          "correct": false,
+          "selected": false
+        },
+        {
+          "answer": "0.2",
+          "correct": true,
+          "selected": false
+        },
+        {
+          "answer": "0.002",
+          "correct": false,
+          "selected": false
+        }
+      ]
+    },
+    {
+      "flashCardFront": "What is the value of 5 in 138.25? ",
+      "flashCardBack": "<h4>Answer: </h4> </br> 0.05",
+      "flashCardFlipped": false,
+      "questionText": "",
+      "answers": [
+        {
+          "answer": "0.5",
+          "correct": false,
+          "selected": false
+        },
+        {
+          "answer": "0.05",
+          "correct": true,
+          "selected": false
+        },
+        {
+          "answer": "0.005",
+          "correct": false,
+          "selected": false
+        }
+      ]
+    },
+    {
+      "flashCardFront": "Write the decimal in words 35.20. ",
+      "flashCardBack": "<h4>Answer: </h4> </br> Thirty five and twenty hundredths",
+      "flashCardFlipped": false,
+      "questionText": "",
+      "answers": [
+        {
+          "answer": "Thirty five and twenty",
+          "correct": false,
+          "selected": false
+        },
+        {
+          "answer": "Thirty five and twenty hundredths",
+          "correct": true,
+          "selected": false
+        },
+        {
+          "answer": "Thirty five and twenty thousandths",
+          "correct": false,
+          "selected": false
+        }
+      ]
+    },
+    {
+      "flashCardFront": "Add the numbers 0.25,0.58 and 0.76 ",
+      "flashCardBack": "<h4>Answer: </h4> </br> 1.59",
+      "flashCardFlipped": false,
+      "questionText": "",
+      "answers": [
+        {
+          "answer": "1.5",
+          "correct": false,
+          "selected": false
+        },
+        {
+          "answer": "1.59",
+          "correct": true,
+          "selected": false
+        },
+        {
+          "answer": "1.60",
+          "correct": false,
+          "selected": false
+        }
+      ]
+    },
+    {
+      "flashCardFront": "Aurora bought 12 bananas for 21.60 pesos and sold them at 3.00 pesos each. How much profit did she get",
+      "flashCardBack": "<h4>Answer: </h4> </br> 14.40 pesos",
+      "flashCardFlipped": false,
+      "questionText": "",
+      "answers": [
+        {
+          "answer": "14.50 pesos",
+          "correct": false,
+          "selected": false
+        },
+        {
+          "answer": "14.40 pesos",
+          "correct": true,
+          "selected": false
+        },
+        {
+          "answer": "14 pesos",
+          "correct": false,
+          "selected": false
+        }
+      ]
+    }
+
+  ]
+
+}

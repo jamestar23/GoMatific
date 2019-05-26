@@ -1,0 +1,33 @@
+<ion-header>
+
+  <ion-navbar>
+    <ion-title>{{ 'LIST_MASTER_TITLE' | translate }} for Chapter {{quartNumber}}</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+<ion-content>
+
+  <!-- Range bar -->
+  <!-- <ion-range min="0" [max]="5" step="1" snaps="true" color="default" [(ngModel)]="progressReport" disabled></ion-range> -->
+
+
+  <ion-list>
+    <ion-item-sliding *ngFor="let item of currentItems">
+      <button ion-item (click)="openItem(item)">
+        <h1>{{item.name}}</h1>
+        <p>{{item.about}}</p>
+        <ion-note item-end *ngIf="item.note">{{item.note}}</ion-note>
+      </button>
+    </ion-item-sliding>
+  </ion-list>
+  
+  <button margin-top ion-button (click)="quiz()" class="quiz-btn">
+    <strong>Practice </strong>&nbsp; <ion-icon name="hand"></ion-icon>
+  </button>
+
+  <!-- <button margin-top ion-button (click)="openPDF()" class="quiz-btn">
+    <strong>Open PDF</strong>
+  </button> -->
+
+</ion-content>

@@ -1,0 +1,26 @@
+page-list-master {
+  h1 {
+    font-size: 22px !important;
+    letter-spacing: .8px;
+    font-family: 'Poor Story', cursive;
+  }
+
+  p {
+    letter-spacing: 0.8px;
+    font-size: 14px !important;
+  }
+
+  .quiz-btn {
+    padding: 0 !important;
+    border: 1px solid #cae8e8;
+    color: #fff;
+    height: 50px;
+    background-color: rgba(50, 82, 154, 0.5);
+    width: 35%;
+    border-radius: 20px;
+    -webkit-animation: hvr-push 3s infinite;
+    animation: hvr-push 3s infinite;
+    margin: 0 auto;
+    display: block;
+  }
+}

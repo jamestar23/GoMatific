@@ -1,0 +1,30 @@
+page-video {
+  ion-page.show-page {
+    background: #fff;
+  }
+
+  video.video {
+    display: block;
+    width: 100%;
+    height: 100%;
+  }
+
+  video.videoPlayer {
+    width: 100%;
+  }
+
+  iframe.videoLess {
+    width: 100% !important;
+    display: block;
+  }
+
+  .vPage {
+    display: block;
+    position: relative;
+    margin-top: 60px;
+  }
+
+  .input-wrapper ion-label.label {
+    font-size: 18px !important;
+  }
+}

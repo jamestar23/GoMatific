@@ -1,0 +1,32 @@
+page-item-detail {
+
+  .scroll-content {
+    background: #fff;
+  }
+
+  .item-profile {
+    width: 100%;
+    background-position: center center;
+    background-size: cover;
+    height: 250px;
+    display: none;
+  }
+
+  .item-lesson {
+    width: 100%;
+    background-position: top center;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    padding-top: 15px;
+    background-color: #fff;
+  }
+
+  .item-detail {
+    width: 100%;
+    background: white;
+    position: relative;
+  }
+
+}

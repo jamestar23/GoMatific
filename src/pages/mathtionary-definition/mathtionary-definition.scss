@@ -1,0 +1,38 @@
+page-mathtionary-definition {
+  ion-content.content {
+    /*background: #fff;*/
+  }
+
+  .fixed-content, .scroll-content {
+    background: transparent !important;
+  }
+
+  .item-detail {
+    width: 100%;
+    /*background: white;*/
+    position: absolute;
+  }
+
+  h1 {
+    text-transform: capitalize;
+  }
+
+  p {
+    padding: 10px;
+    border: 1px solid #999;
+    border-radius: 10px;
+    font-size: 24px;
+    font-family: 'Poor Story', cursive;
+  }
+
+  img.sampleImage {
+    width: 50%;
+    height: 100%;
+    margin: 0 auto;
+    display: block;
+  }
+
+  img.sampleImage[src*="assets/imgs/placeholder.png"] {
+    display: none;
+  }
+}

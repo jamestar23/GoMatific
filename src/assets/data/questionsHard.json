@@ -1,0 +1,237 @@
+{
+  "questions": [
+
+    {
+      "flashCardFront": "Write the ratio in word form of 12 female to 23 male",
+      "flashCardBack": "<h4>The correct answer is </h4> </br> 12 is to 23",
+      "flashCardFlipped": false,
+      "questionText": "",
+      "answers": [
+        {
+          "answer": " 12 are in 23",
+          "correct": false,
+          "selected": false
+        },
+        {
+          "answer": "12 is to 23",
+          "correct": true,
+          "selected": false
+        },
+        {
+          "answer": "12 is on 23",
+          "correct": false,
+          "selected": false
+        }
+      ]
+    },
+    {
+      "flashCardFront": "Darwin bought 5 boxesof corn beef.A box contains one and a half dozen cans of corn beef.  if he sold all the corn beef at 45.00 pesos each, how much did he earn? ",
+      "flashCardBack": "<h4>The correct answer is </h4> </br> 4050",
+      "flashCardFlipped": false,
+      "questionText": "",
+      "answers": [
+        {
+          "answer": "4500",
+          "correct": false,
+          "selected": false
+        },
+        {
+          "answer": "4050",
+          "correct": true,
+          "selected": false
+        },
+        {
+          "answer": "4005",
+          "correct": false,
+          "selected": false
+        }
+      ]
+    },
+    {
+      "flashCardFront": "I am a number with 4 in the ones place. 8 in the hundreds place and 6 in the millions place. All of my other digits are zeros. Who am I",
+      "flashCardBack": "<h4>The correct answer is </h4> </br> 6,000,804",
+      "flashCardFlipped": false,
+      "questionText": "",
+      "answers": [
+        {
+          "answer": "6,000,408",
+          "correct": false,
+          "selected": false
+        },
+        {
+          "answer": "6,000,804",
+          "correct": true,
+          "selected": false
+        },
+        {
+          "answer": "6,008,004",
+          "correct": false,
+          "selected": false
+        }
+      ]
+    },
+    {
+      "flashCardFront": "Round each decimal to the nearest whole number to estimate the difference. 24.66 - 14.06",
+      "flashCardBack": "<h4>The correct answer is </h4> </br> 11",
+      "flashCardFlipped": false,
+      "questionText": "",
+      "answers": [
+        {
+          "answer": "1.1",
+          "correct": false,
+          "selected": false
+        },
+        {
+          "answer": "11",
+          "correct": true,
+          "selected": false
+        },
+        {
+          "answer": "10.6",
+          "correct": false,
+          "selected": false
+        }
+      ]
+    },
+    {
+      "flashCardFront": "Multiply 3/4 and 6/5 ",
+      "flashCardBack": "<h4>The correct answer is </h4> </br> 18/20",
+      "flashCardFlipped": false,
+      "questionText": "",
+      "answers": [
+        {
+          "answer": "20/18",
+          "correct": false,
+          "selected": false
+        },
+        {
+          "answer": "18/20",
+          "correct": true,
+          "selected": false
+        },
+        {
+          "answer": "9/20",
+          "correct": false,
+          "selected": false
+        }
+      ]
+    },
+    {
+      "flashCardFront": "Multiply 5/6 and 3/4 ",
+      "flashCardBack": "<h4>The correct answer is </h4> </br> 15/24",
+      "flashCardFlipped": false,
+      "questionText": "",
+      "answers": [
+        {
+          "answer": "24/15",
+          "correct": false,
+          "selected": false
+        },
+        {
+          "answer": "15/24",
+          "correct": true,
+          "selected": false
+        },
+        {
+          "answer": "8/25",
+          "correct": false,
+          "selected": false
+        }
+      ]
+    },
+    {
+      "flashCardFront": "Write the ratio in colon form of 20 female to 34 male",
+      "flashCardBack": "<h4>The correct answer is </h4> </br> 20:34",
+      "flashCardFlipped": false,
+      "questionText": "",
+      "answers": [
+        {
+          "answer": "34:20",
+          "correct": false,
+          "selected": false
+        },
+        {
+          "answer": "20:34",
+          "correct": true,
+          "selected": false
+        },
+        {
+          "answer": "10:17",
+          "correct": false,
+          "selected": false
+        }
+      ]
+    },
+    {
+      "flashCardFront": "What is the least common denominator or LCD of 4/12 x 3/4",
+      "flashCardBack": "<h4>The correct answer is </h4> </br> 12",
+      "flashCardFlipped": false,
+      "questionText": "",
+      "answers": [
+        {
+          "answer": "4",
+          "correct": false,
+          "selected": false
+        },
+        {
+          "answer": "12",
+          "correct": true,
+          "selected": false
+        },
+        {
+          "answer": "3",
+          "correct": false,
+          "selected": false
+        }
+      ]
+    },
+    {
+      "flashCardFront": "Anna bought 12 cupcakes for 21.60 pesos and sold them at 3.00 pesos each. How much profit did she get?",
+      "flashCardBack": "<h4>The correct answer is </h4> </br> 14.40",
+      "flashCardFlipped": false,
+      "questionText": "",
+      "answers": [
+        {
+          "answer": "14.0",
+          "correct": false,
+          "selected": false
+        },
+        {
+          "answer": "14.40",
+          "correct": true,
+          "selected": false
+        },
+        {
+          "answer": "14.04",
+          "correct": false,
+          "selected": false
+        }
+      ]
+    },
+    {
+      "flashCardFront": "Write the decimal in words 25.58",
+      "flashCardBack": "<h4>The correct answer is </h4> </br> ____",
+      "flashCardFlipped": false,
+      "questionText": "",
+      "answers": [
+        {
+          "answer": "twenty five and fifty eight",
+          "correct": false,
+          "selected": false
+        },
+        {
+          "answer": "twenty five and fifty eight hundredths",
+          "correct": true,
+          "selected": false
+        },
+        {
+          "answer": "twenty five and fifty eight thousandths",
+          "correct": false,
+          "selected": false
+        }
+      ]
+    }
+
+  ]
+
+}

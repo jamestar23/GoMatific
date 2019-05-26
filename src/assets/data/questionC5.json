@@ -1,0 +1,97 @@
+{
+  "questions": [
+
+    {
+      "flashCardFront": "Write the ratio in colon form of 18 roses to 5 chocolates",
+      "flashCardBack": "<h4>Answer: </h4> </br> 18:5",
+      "flashCardFlipped": false,
+      "questionText": "",
+      "answers": [
+        {
+          "answer": "5:18",
+          "correct": false,
+          "selected": false
+        },
+        {
+          "answer": "18:5",
+          "correct": true,
+          "selected": false
+        }
+      ]
+    },
+    {
+      "flashCardFront": "Write the ratio in colon form of 56 books to 99 notebooks",
+      "flashCardBack": "<h4>Answer: </h4> </br> 56:99",
+      "flashCardFlipped": false,
+      "questionText": "",
+      "answers": [
+        {
+          "answer": "99:56",
+          "correct": false,
+          "selected": false
+        },
+        {
+          "answer": "56:99",
+          "correct": true,
+          "selected": false
+        }
+      ]
+    },
+    {
+      "flashCardFront": "Write the ratio in colon form of 12 eggs to 1 chicken",
+      "flashCardBack": "<h4>Answer: </h4> </br>12:1",
+      "flashCardFlipped": false,
+      "questionText": "",
+      "answers": [
+        {
+          "answer": "1:12",
+          "correct": false,
+          "selected": false
+        },
+        {
+          "answer": "12:1",
+          "correct": true,
+          "selected": false
+        }
+      ]
+    },
+    {
+      "flashCardFront": "Write the ratio in colon form of 5 apples to 4 oranges          ",
+      "flashCardBack": "<h4>Answer: </h4>5:4</br> ",
+      "flashCardFlipped": false,
+      "questionText": "",
+      "answers": [
+        {
+          "answer": "4:5",
+          "correct": false,
+          "selected": false
+        },
+        {
+          "answer": "5:4",
+          "correct": true,
+          "selected": false
+        }
+      ]
+    },
+    {
+      "flashCardFront": "Write the ratio in colon form of 3 bags to 4 baskets",
+      "flashCardBack": "<h4>Answer: </h4> </br> 3:4",
+      "flashCardFlipped": false,
+      "questionText": "",
+      "answers": [
+        {
+          "answer": "4:3",
+          "correct": false,
+          "selected": false
+        },
+        {
+          "answer": "3:4",
+          "correct": true,
+          "selected": false
+        }
+      ]
+    }
+
+  ]
+
+}

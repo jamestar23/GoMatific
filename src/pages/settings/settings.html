@@ -1,0 +1,80 @@
+<ion-header>
+
+  <ion-navbar>
+    <ion-title>{{ pageTitle }}</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+<ion-content>
+  <!-- reset data -->
+  <form [formGroup]="form" *ngIf="settingsReady">
+
+    <!-- Sound Toggle -->
+    <ion-item>
+      <ion-label>{{ 'SETTINGS_OPTION1' | translate }}</ion-label>
+      <ion-toggle formControlName="option1" [(ngModel)]="isToggled" (ionChange)="notify()"></ion-toggle>
+    </ion-item>
+
+
+    <ion-list *ngIf="page == 'main'">
+      <!--<button ion-item [navPush]="subSettings" [navParams]="profileSettings">
+      {{ 'SETTINGS_PROFILE_BUTTON' | translate }}
+    </button>-->
+      <h2 padding-left>Student Profile</h2>
+      <ion-item>
+        <ion-label>{{ 'SETTINGS_OPTION2' | translate }}</ion-label>
+        <ion-input formControlName="option2"></ion-input>
+      </ion-item>
+      <ion-item>
+        <ion-label>{{ 'SETTINGS_OPTION3' | translate }}</ion-label>
+        <ion-input formControlName="option3"></ion-input>
+      </ion-item>
+      <ion-item>
+        <ion-label>{{ 'SETTINGS_OPTION4' | translate }}</ion-label>
+        <ion-input formControlName="option4"></ion-input>
+      </ion-item>
+
+      <hr>
+      
+      <div text-center>
+          <button ion-button outline (click)="resetStorage()">Reset Data</button>
+      </div>
+      <!-- <ion-item>
+        <ion-label>Last Lesson read</ion-label>
+        <ion-input formControlName="option7"></ion-input>
+      </ion-item> -->
+
+      <!--<ion-item>
+      <ion-label>{{ 'SETTINGS_OPTION5' | translate }}</ion-label>
+      <ion-select formControlName="option5">
+        <ion-option value="1" checked="true">1</ion-option>
+        <ion-option value="2">2</ion-option>
+        <ion-option value="3">3</ion-option>
+        <ion-option value="4">4</ion-option>
+        <ion-option value="5">5</ion-option>
+      </ion-select>
+    </ion-item>-->
+
+    </ion-list>
+
+
+
+    <!--<ion-list *ngIf="page == 'profile'">
+    <ion-item>
+      <ion-label fixed>{{ 'SETTINGS_OPTION6' | translate }}</ion-label>
+      <ion-input formControlName="option6"></ion-input>
+    </ion-item>
+  </ion-list>-->
+  </form>
+
+  
+  <!-- <img src="assets/img/appicon.png" class="audioApp" alt="Hayme" width="150" height="150" /> -->
+
+
+  <audio [autoplay]="autoplay" loop class="audioApp">
+    <source src="assets/audio/quiz.mp3" type="audio/mpeg" >
+  </audio>
+
+
+</ion-content>
